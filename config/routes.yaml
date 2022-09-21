@@ -1,3 +1,16 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+# the "app_lucky_number" route name is not important yet
+app_lucky_number:
+    path: /
+    controller: App\Controller\MainController::index
+
+test2:
+    path: /t2
+    controller: App\Controller\Test2Controller::index
+
+test3:
+    path: /test3
+    controller: App\Controller\Test2Controller::test3
